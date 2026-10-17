@@ -2,7 +2,7 @@
 
 Reverse engineering the bun runtime binary with [REA](https://github.com/morluto/rea) (Reverse Engineer Anything). This is a fun exercise, not a security audit.
 
-**Status: in progress.** The static inventory is done. The Ghidra-backed decompilation is still running, and the sections on it below will be filled in when it finishes.
+**Status: partial.** The static inventory and Ghidra's program overview are done. Function-level decompilation has not been run yet.
 
 ## Target
 
@@ -81,15 +81,22 @@ The table has no JavaScriptCore, WTF, or BoringSSL names, even though the config
 | `inspect-with-objdump file_headers / section_headers / symbols` | Evidence recorded. Artifact SHA-256 unchanged before and after each run. |
 | `inspect-binary-layout` | **Refused.** The file is 79.5 MB and REA's limit is 32 MiB (33,554,432 B). I did not work around this. |
 | `analyze --provider ghidra` (attempt 1) | **Timed out.** Ghidra's import and auto-analysis did not finish in REA's 45-minute startup deadline (`provider_timeout`). |
-| `analyze --provider ghidra` (attempt 2) | Running, with a 3-hour startup deadline and "Decompiler Switch Analysis" disabled. The log showed that analyzer restarting repeatedly in attempt 1. |
+| `analyze --provider ghidra` (attempt 2) | **Succeeded.** Import, auto-analysis, and `binary_overview` completed in about 40 minutes end to end. Run with a 3-hour startup deadline and "Decompiler Switch Analysis" disabled (see Limits). |
 
-Decompilation, function-level analysis, string search, and cross-references are pending on attempt 2.
+### Ghidra overview (attempt 2)
+
+- Image base `0x200000`; 40 segments, matching the ELF section layout above.
+- **53,294 procedures** and **50,573 strings** recovered.
+- objdump's symbol table names only 1,060 functions. Ghidra finds about 50 times as many procedures, so most of the code is unnamed in the symbol table. That fits the hypothesis that bun's internals are stripped, but it is not proven.
+
+Function-level decompilation, string search, and cross-references are not run yet. Each Ghidra query re-imports the target, which takes about 40 minutes here, so those steps are expensive.
 
 ## Limits and scope
 
 - No bun or WebKit source was consulted. Every claim above comes from the binary and from tool output.
 - The binary is not committed. Only derived evidence is.
 - REA's `inspect-binary-layout` cannot run on a file this size, so ELF layout here comes from `objdump` and `readelf`, not REA.
+- The Ghidra run disabled one analyzer (`Decompiler Switch Analysis`), which it logged as restarting repeatedly. Its results therefore differ from a default analysis.
 
 ## Reproduce
 
@@ -114,4 +121,5 @@ python3 scripts/symtab_families.py evidence/rea-objdump-symbols.txt
 - `evidence/rea-objdump-symbols.txt`: the raw symbol table.
 - `evidence/rea-inspect-binary-layout-refusal.json`: the 32 MiB refusal.
 - `evidence/rea-analyze-attempt1-timeout.json`: the first Ghidra timeout, trimmed.
+- `evidence/rea-analyze-attempt2-overview.json`: the successful Ghidra `binary_overview`.
 - `scripts/symtab_families.py`: symbol counts by section and family.
