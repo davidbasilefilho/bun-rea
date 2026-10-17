@@ -1,0 +1,18 @@
+{
+  "error": "Analysis failed",
+  "code": "provider_timeout",
+  "category": "timeout",
+  "message": "Analysis took too long. Try a smaller request, then run `rea doctor` if it continues.",
+  "retryable": true,
+  "details": {
+    "operation": "list_documents",
+    "timeout_ms": 2700000,
+    "diagnostics": {
+      "target_sha256": "a83d263767d839e4d2649ca8e35d07159c7afc99afdc96d731ced29e056dda0c",
+      "transport": "unix-socket",
+      "provider_version": "12.1.4",
+      "profile_digest": "9c7f6b24be69294e61da046e4583e3856cb9e40433b149c1bf8bb534d2fe03ef",
+      "run_id": "247356e6-3d93-4ece-bb93-274ed467df52"
+    }
+  }
+}

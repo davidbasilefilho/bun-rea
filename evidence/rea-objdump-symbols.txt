@@ -1,0 +1,1081 @@
+
+/tmp/claude-0/-home-user-bun-rea/abdac22f-57fd-533f-bec4-380802aca616/scratchpad/target/bun:     file format elf64-x86-64
+
+SYMBOL TABLE:
+0000000000000000  w      *UND*	0000000000000000              __gmon_start__
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000000000  w    F *UND*	0000000000000000              __cxa_finalize
+000000000291b360 g     F .text	000000000000008f              uv_tty_reset_mode
+0000000002dfe1e0 g     F .text	00000000000005d1              _ZN2v85Array3NewEPNS_7IsolateEPNS_5LocalINS_5ValueEEEm
+0000000002dfeab0 g     F .text	0000000000000121              _ZN2v85Array3NewEPNS_7IsolateEi
+0000000002dfebe0 g     F .text	000000000000072e              _ZN2v85Array3NewENS_5LocalINS_7ContextEEEmSt8functionIFNS_10MaybeLocalINS_5ValueEEEvEE
+0000000002dff310 g     F .text	00000000000000bb              _ZN2v87Context10GetIsolateEv
+0000000002dff3d0 g     F .text	0000000000000052              _ZNK2v85Array6LengthEv
+0000000002dff430 g     F .text	00000000000000a2              _ZN2v85Array9CheckCastEPNS_5ValueE
+0000000002dff4e0 g     F .text	0000000000000301              _ZN2v85Array7IterateENS_5LocalINS_7ContextEEEPFNS0_14CallbackResultEjNS1_INS_5ValueEEEPvES7_
+0000000002dff7f0 g     F .text	0000000000000015              _ZNK2v812BackingStore4DataEv
+0000000002dff810 g     F .text	00000000000000f2              _ZN2v811ArrayBuffer3NewEPNS_7IsolateEmNS_30BackingStoreInitializationModeE
+0000000002dffc00 g     F .text	000000000000008f              _ZN2v811ArrayBuffer15GetBackingStoreEv
+0000000002dffc90 g     F .text	0000000000000171              _ZN2v815ArrayBufferView6BufferEv
+0000000002dffe10 g     F .text	00000000000000b2              _ZN2v87Isolate10GetCurrentEv
+0000000002dffed0 g     F .text	0000000000000067              _ZN2v815ArrayBufferView10ByteOffsetEv
+0000000002dfff40 g     F .text	0000000000000077              _ZN2v815ArrayBufferView10ByteLengthEv
+0000000002dfffc0 g     F .text	000000000000030e              _ZN2v86BigInt3NewEPNS_7IsolateEl
+0000000002e002d0 g     F .text	0000000000000057              _ZNK2v87Boolean5ValueEv
+0000000002e00330 g     F .text	0000000000000020              _ZN2v87Boolean3NewEPNS_7IsolateEb
+0000000002e00350 g     F .text	00000000000000ff              _ZN2v87Context6GlobalEv
+0000000002e01e40 g     F .text	00000000000001dc              _ZNK2v814CpuProfileNode15GetFunctionNameEv
+0000000002e02310 g     F .text	0000000000000015              _ZNK2v814CpuProfileNode18GetFunctionNameStrEv
+0000000002e02330 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode11GetScriptIdEv
+0000000002e02340 g     F .text	00000000000001dc              _ZNK2v814CpuProfileNode21GetScriptResourceNameEv
+0000000002e02520 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode13GetLineNumberEv
+0000000002e02530 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode15GetColumnNumberEv
+0000000002e02540 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode15GetHitLineCountEv
+0000000002e02550 g     F .text	0000000000000098              _ZNK2v814CpuProfileNode12GetLineTicksEPNS0_8LineTickEj
+0000000002e025f0 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode11GetHitCountEv
+0000000002e02600 g     F .text	0000000000000009              _ZNK2v814CpuProfileNode16GetChildrenCountEv
+0000000002e02610 g     F .text	000000000000001c              _ZNK2v814CpuProfileNode8GetChildEi
+0000000002e02630 g     F .text	000000000000017b              _ZNK2v810CpuProfile8GetTitleEv
+0000000002e027b0 g     F .text	000000000000000a              _ZNK2v810CpuProfile14GetTopDownRootEv
+0000000002e027c0 g     F .text	0000000000000009              _ZNK2v810CpuProfile15GetSamplesCountEv
+0000000002e027d0 g     F .text	000000000000001c              _ZNK2v810CpuProfile9GetSampleEi
+0000000002e027f0 g     F .text	000000000000001c              _ZNK2v810CpuProfile18GetSampleTimestampEi
+0000000002e02810 g     F .text	000000000000000a              _ZNK2v810CpuProfile12GetStartTimeEv
+0000000002e02820 g     F .text	000000000000000a              _ZNK2v810CpuProfile10GetEndTimeEv
+0000000002e02830 g     F .text	00000000000000e6              _ZN2v810CpuProfile6DeleteEv
+0000000002e02920 g     F .text	0000000000000032              _ZN2v811CpuProfiler3NewEPNS_7IsolateENS_22CpuProfilingNamingModeENS_23CpuProfilingLoggingModeE
+0000000002e02960 g     F .text	0000000000000006              _ZN2v811CpuProfiler13CollectSampleEPNS_7IsolateESt8optionalImE
+0000000002e02970 g     F .text	0000000000000114              _ZN2v811CpuProfiler7DisposeEv
+0000000002e02a90 g     F .text	0000000000000013              _ZN2v811CpuProfiler19SetSamplingIntervalEi
+0000000002e02ab0 g     F .text	0000000000000432              _ZN2v811CpuProfiler5StartENS_5LocalINS_6StringEEENS_16CpuProfilingModeEbj
+0000000002e02ef0 g     F .text	000000000000000f              _ZN2v811CpuProfiler14StartProfilingENS_5LocalINS_6StringEEENS_16CpuProfilingModeEbj
+0000000002e02f00 g     F .text	0000000000000011              _ZN2v811CpuProfiler14StartProfilingENS_5LocalINS_6StringEEEb
+0000000002e02f20 g     F .text	000000000000000a              _ZN2v811CpuProfiler4StopEj
+0000000002e02f30 g     F .text	000000000000012d              _ZN2v811CpuProfiler13StopProfilingENS_5LocalINS_6StringEEE
+0000000002e03060 g     F .text	0000000000000078              _ZN2v820EscapableHandleScopeC2EPNS_7IsolateE
+0000000002e030e0 g     F .text	0000000000000078              _ZN2v824EscapableHandleScopeBaseC2EPNS_7IsolateE
+0000000002e03160 g     F .text	0000000000000320              _ZN2v811HandleScopeD2Ev
+0000000002e03480 g     F .text	000000000000000a              _ZN2v820EscapableHandleScopeD2Ev
+0000000002e03490 g     F .text	0000000000000071              _ZN2v824EscapableHandleScopeBase10EscapeSlotEPm
+0000000002e03620 g     F .text	0000000000000180              _ZN2v89Exception5ErrorENS_5LocalINS_6StringEEENS1_INS_5ValueEEE
+0000000002e037a0 g     F .text	0000000000000182              _ZN2v89Exception9TypeErrorENS_5LocalINS_6StringEEENS1_INS_5ValueEEE
+0000000002e03930 g     F .text	00000000000000d1              _ZN2v88External3NewEPNS_7IsolateEPv
+0000000002e03d00 g     F .text	00000000000000d1              _ZN2v88External3NewEPNS_7IsolateEPvt
+0000000002e03de0 g     F .text	000000000000006f              _ZNK2v88External5ValueEv
+0000000002e03e50 g     F .text	000000000000006f              _ZNK2v88External5ValueEt
+0000000002e03ec0 g     F .text	000000000000083f              _ZN2v88Function4CallENS_5LocalINS_7ContextEEENS1_INS_5ValueEEEiPS5_
+0000000002e04700 g     F .text	000000000000079b              _ZNK2v88Function11NewInstanceENS_5LocalINS_7ContextEEEiPNS1_INS_5ValueEEE
+0000000002e04ea0 g     F .text	000000000000000e              _ZNK2v88Function11NewInstanceENS_5LocalINS_7ContextEEE
+0000000002e04eb0 g     F .text	0000000000000103              _ZN2v88Function7SetNameENS_5LocalINS_6StringEEE
+0000000002e04fc0 g     F .text	0000000000000206              _ZNK2v88Function7GetNameEv
+0000000002e051d0 g     F .text	0000000000000523              _ZN2v816FunctionTemplate3NewEPNS_7IsolateEPFvRKNS_20FunctionCallbackInfoINS_5ValueEEEENS_5LocalIS4_EENSA_INS_9SignatureEEEiNS_19ConstructorBehaviorENS_14SideEffectTypeEPKNS_9CFunctionEttt
+0000000002e05700 g     F .text	0000000000000421              _ZN2v816FunctionTemplate11GetFunctionENS_5LocalINS_7ContextEEE
+0000000002e05b30 g     F .text	00000000000000e4              _ZN2v816FunctionTemplate16InstanceTemplateEv
+0000000002e05f10 g     F .text	00000000000000e4              _ZN2v816FunctionTemplate17PrototypeTemplateEv
+0000000002e06000 g     F .text	00000000000000ca              _ZN2v816FunctionTemplate12SetClassNameENS_5LocalINS_6StringEEE
+0000000002e060d0 g     F .text	00000000000000d4              _ZN2v811HandleScopeC2EPNS_7IsolateE
+0000000002e061b0 g     F .text	000000000000001a              _ZN2v811HandleScope12CreateHandleEPNS_8internal7IsolateEm
+0000000002e061d0 g     F .text	000000000000001a              _ZN2v811HandleScope12CreateHandleEPNS_7IsolateEm
+0000000002e061f0 g     F .text	000000000000001a              _ZN2v811HandleScope10InitializeEPNS_7IsolateE
+0000000002e06210 g     F .text	0000000000000045              _ZN2v811HandleScope6ExtendEPNS_7IsolateE
+0000000002e06260 g     F .text	0000000000000023              _ZN2v811HandleScope16DeleteExtensionsEPNS_7IsolateE
+0000000002e06290 g     F .text	0000000000000010              _ZN2v820HeapObjectStatisticsC2Ev
+0000000002e062a0 g     F .text	0000000000000014              _ZN2v812HeapProfiler25StartSamplingHeapProfilerEmiNS0_13SamplingFlagsE
+0000000002e062c0 g     F .text	000000000000000a              _ZN2v812HeapProfiler24StopSamplingHeapProfilerEv
+0000000002e062d0 g     F .text	0000000000000008              _ZN2v812HeapProfiler20GetAllocationProfileEv
+0000000002e062e0 g     F .text	0000000000000035              _ZN2v87Isolate15GetHeapProfilerEv
+0000000002e06320 g     F .text	000000000000002b              _ZN2v87Integer3NewEPNS_7IsolateEi
+0000000002e06640 g     F .text	0000000000000045              _ZN2v87Integer15NewFromUnsignedEPNS_7IsolateEj
+0000000002e06690 g     F .text	00000000000000b8              _ZNK2v87Integer5ValueEv
+0000000002e06750 g     F .text	00000000000000b2              _ZN2v87Isolate13TryGetCurrentEv
+0000000002e06810 g     F .text	0000000000000019              _ZN2v87Isolate17GetCurrentContextEv
+0000000002e06b20 g     F .text	0000000000000019              _ZN2v87Isolate28GetEnteredOrMicrotaskContextEv
+0000000002e06b40 g     F .text	0000000000000015              _ZN2v87Isolate36GetContinuationPreservedEmbedderDataEv
+0000000002e06b60 g     F .text	0000000000000008              _ZN2v87Isolate7IsInUseEv
+0000000002e06b70 g     F .text	0000000000000083              _ZN2v87Isolate21LowMemoryNotificationEv
+0000000002e06c00 g     F .text	0000000000000006              _ZN2v87Isolate36AutomaticallyRestoreInitialHeapLimitEd
+0000000002e06c10 g     F .text	0000000000000008              _ZN2v87Isolate30NumberOfTrackedHeapObjectTypesEv
+0000000002e06c20 g     F .text	0000000000000008              _ZN2v87Isolate31GetHeapObjectStatisticsAtLastGCEPNS_20HeapObjectStatisticsEm
+0000000002e06c30 g     F .text	000000000000006c              _ZN2v87Isolate21AddGCPrologueCallbackEPFvPS0_NS_6GCTypeENS_15GCCallbackFlagsEPvES4_S2_
+0000000002e06ca0 g     F .text	0000000000000068              _ZN2v87Isolate24RemoveGCPrologueCallbackEPFvPS0_NS_6GCTypeENS_15GCCallbackFlagsEPvES4_
+0000000002e06d10 g     F .text	0000000000000072              _ZN2v87Isolate21AddGCEpilogueCallbackEPFvPS0_NS_6GCTypeENS_15GCCallbackFlagsEPvES4_S2_
+0000000002e06d90 g     F .text	0000000000000068              _ZN2v87Isolate24RemoveGCEpilogueCallbackEPFvPS0_NS_6GCTypeENS_15GCCallbackFlagsEPvES4_
+0000000002e06e00 g     F .text	0000000000000072              _ZN2v87Isolate24AddNearHeapLimitCallbackEPFmPvmmES1_
+0000000002e06e80 g     F .text	0000000000000063              _ZN2v87Isolate27RemoveNearHeapLimitCallbackEPFmPvmmEm
+0000000002e06ef0 g     F .text	0000000000000093              _ZN2v87Isolate16RequestInterruptEPFvPS0_PvES2_
+0000000002e06f90 g     F .text	00000000000000fb              _ZN2v87Isolate14ThrowExceptionENS_5LocalINS_5ValueEEE
+0000000002e07090 g     F .text	0000000000000125              _ZN2v87Isolate10ThrowErrorENS_5LocalINS_6StringEEE
+0000000002e07280 g     F .text	0000000000001bc2              _ZN2v83Map3SetENS_5LocalINS_7ContextEEENS1_INS_5ValueEEES5_
+0000000002e08e50 g     F .text	0000000000000e87              _ZN2v83Map6DeleteENS_5LocalINS_7ContextEEENS1_INS_5ValueEEE
+0000000002e09ce0 g     F .text	0000000000000097              _ZN2v86Number3NewEPNS_7IsolateEd
+0000000002e0a070 g     F .text	000000000000002b              _ZN2v86Number12NewFromInt32EPNS_7IsolateEi
+0000000002e0a0a0 g     F .text	0000000000000045              _ZN2v86Number13NewFromUint32EPNS_7IsolateEj
+0000000002e0a0f0 g     F .text	00000000000000bd              _ZNK2v86Number5ValueEv
+0000000002e0a1b0 g     F .text	0000000000000128              _ZN2v86Object3NewEPNS_7IsolateE
+0000000002e0a2e0 g     F .text	0000000000000a8c              _ZN2v86Object3SetENS_5LocalINS_7ContextEEENS1_INS_5ValueEEES5_
+0000000002e0ad70 g     F .text	0000000000000175              _ZN2v86Object3SetENS_5LocalINS_7ContextEEEjNS1_INS_5ValueEEE
+0000000002e0aef0 g     F .text	000000000000094f              _ZN2v86Object3GetENS_5LocalINS_7ContextEEENS1_INS_5ValueEEE
+0000000002e0b840 g     F .text	00000000000000f9              _ZN2v86Object3GetENS_5LocalINS_7ContextEEEj
+0000000002e0b940 g     F .text	00000000000001bf              _ZN2v86Object16SetInternalFieldEiNS_5LocalINS_4DataEEE
+0000000002e0bb00 g     F .text	000000000000000a              _ZN2v86Object16GetInternalFieldEi
+0000000002e0bb10 g     F .text	0000000000000415              _ZN2v86Object20SlowGetInternalFieldEi
+0000000002e0bf30 g     F .text	0000000000000089              _ZN2v86Object32SetAlignedPointerInInternalFieldEiPvt
+0000000002e0bfc0 g     F .text	000000000000008b              _ZN2v86Object38SlowGetAlignedPointerFromInternalFieldEit
+0000000002e0c050 g     F .text	000000000000008b              _ZN2v86Object34GetAlignedPointerFromInternalFieldEit
+0000000002e0c0e0 g     F .text	0000000000000072              _ZNK2v86Object18InternalFieldCountEv
+0000000002e0c160 g     F .text	0000000000000029              _ZN2v86Object15GetIdentityHashEv
+0000000002e0c190 g     F .text	0000000000000a9e              _ZN2v86Object17DefineOwnPropertyENS_5LocalINS_7ContextEEENS1_INS_4NameEEENS1_INS_5ValueEEENS_17PropertyAttributeE
+0000000002e0cc30 g     F .text	0000000000000008              _ZN2v820ToExternalPointerTagEt
+0000000002e0cc40 g     F .text	000000000000012d              _ZN2v814ObjectTemplate3NewEPNS_7IsolateENS_5LocalINS_16FunctionTemplateEEE
+0000000002e0cd70 g     F .text	000000000000015b              _ZN2v814ObjectTemplate11NewInstanceENS_5LocalINS_7ContextEEE
+0000000002e0ced0 g     F .text	000000000000005c              _ZN2v814ObjectTemplate21SetInternalFieldCountEi
+0000000002e0cf30 g     F .text	0000000000000055              _ZNK2v814ObjectTemplate18InternalFieldCountEv
+0000000002e0cf90 g     F .text	000000000000001e              _ZN2v89Signature3NewEPNS_7IsolateENS_5LocalINS_16FunctionTemplateEEE
+0000000002e0cfb0 g     F .text	00000000000003aa              _ZN2v86String11NewFromUtf8EPNS_7IsolateEPKcNS_13NewStringTypeEi
+0000000002e0d360 g     F .text	000000000000000a              _ZN2v86String18NewFromUtf8LiteralEPNS_7IsolateEPKcNS_13NewStringTypeEi
+0000000002e0d370 g     F .text	0000000000000158              _ZN2v86String14NewFromOneByteEPNS_7IsolateEPKhNS_13NewStringTypeEi
+0000000002e0d4d0 g     F .text	000000000000001a              _ZNK2v86String10Utf8LengthEPNS_7IsolateE
+0000000002e0d4f0 g     F .text	0000000000000457              _ZNK2v86String12Utf8LengthV2EPNS_7IsolateE
+0000000002e0d950 g     F .text	0000000000000076              _ZNK2v86String9IsOneByteEv
+0000000002e0d9d0 g     F .text	00000000000000d4              _ZNK2v86String19ContainsOnlyOneByteEv
+0000000002e0dab0 g     F .text	0000000000000077              _ZNK2v86String10IsExternalEv
+0000000002e0db30 g     F .text	000000000000007e              _ZNK2v86String17IsExternalTwoByteEv
+0000000002e0dbb0 g     F .text	000000000000007f              _ZNK2v86String17IsExternalOneByteEv
+0000000002e0dc30 g     F .text	00000000000001c2              _ZNK2v86String9WriteUtf8EPNS_7IsolateEPciPii
+0000000002e0de00 g     F .text	00000000000002b8              _ZNK2v86String7WriteV2EPNS_7IsolateEjjPti
+0000000002e0e0c0 g     F .text	0000000000000388              _ZNK2v86String14WriteOneByteV2EPNS_7IsolateEjjPhi
+0000000002e0e450 g     F .text	00000000000002c4              _ZNK2v86String11WriteUtf8V2EPNS_7IsolateEPcmiPm
+0000000002e0e720 g     F .text	0000000000000048              _ZNK2v86String6LengthEv
+0000000002e0e780 g     F .text	0000000000000208              _ZN2v88Template3SetENS_5LocalINS_4NameEEENS1_INS_4DataEEENS_17PropertyAttributeE
+0000000002e0e990 g     F .text	000000000000023a              _ZN2v88Template21SetNativeDataPropertyENS_5LocalINS_4NameEEEPFvS3_RKNS_20PropertyCallbackInfoINS_5ValueEEEEPFvS3_NS1_IS5_EERKNS4_IvEEESB_NS_17PropertyAttributeENS_14SideEffectTypeESI_
+0000000002e0ebd0 g     F .text	0000000000000075              _ZN2v84base9TimeTicks3NowEv
+0000000002e0ec50 g     F .text	0000000000000542              _ZN2v810Uint8Array3NewENS_5LocalINS_11ArrayBufferEEEmm
+0000000002e0f1a0 g     F .text	0000000000000542              _ZN2v811Uint32Array3NewENS_5LocalINS_11ArrayBufferEEEmm
+0000000002e0f6f0 g     F .text	00000000000000a3              _ZNK2v85Value9IsBooleanEv
+0000000002e0f7a0 g     F .text	000000000000008c              _ZNK2v85Value8IsObjectEv
+0000000002e0f830 g     F .text	00000000000000a4              _ZNK2v85Value8IsNumberEv
+0000000002e0f8e0 g     F .text	00000000000000f0              _ZNK2v85Value8IsUint32Ev
+0000000002e0f9d0 g     F .text	000000000000009f              _ZNK2v85Value11IsUndefinedEv
+0000000002e0fa70 g     F .text	000000000000009f              _ZNK2v85Value16QuickIsUndefinedEv
+0000000002e0fb10 g     F .text	000000000000009f              _ZNK2v85Value11QuickIsNullEv
+0000000002e0fbb0 g     F .text	00000000000000a3              _ZNK2v85Value22QuickIsNullOrUndefinedEv
+0000000002e0fc60 g     F .text	000000000000008c              _ZNK2v85Value13QuickIsStringEv
+0000000002e0fcf0 g     F .text	000000000000009f              _ZNK2v85Value6IsNullEv
+0000000002e0fd90 g     F .text	00000000000000a3              _ZNK2v85Value17IsNullOrUndefinedEv
+0000000002e0fe40 g     F .text	000000000000009f              _ZNK2v85Value6IsTrueEv
+0000000002e0fee0 g     F .text	000000000000009f              _ZNK2v85Value10FullIsTrueEv
+0000000002e0ff80 g     F .text	000000000000009f              _ZNK2v85Value7IsFalseEv
+0000000002e10020 g     F .text	000000000000009f              _ZNK2v85Value11FullIsFalseEv
+0000000002e100c0 g     F .text	000000000000008c              _ZNK2v85Value8IsStringEv
+0000000002e10150 g     F .text	000000000000011f              _ZNK2v85Value10IsFunctionEv
+0000000002e10270 g     F .text	000000000000008c              _ZNK2v85Value5IsMapEv
+0000000002e10300 g     F .text	0000000000000090              _ZNK2v85Value7IsArrayEv
+0000000002e10390 g     F .text	00000000000000f2              _ZNK2v85Value7IsInt32Ev
+0000000002e10490 g     F .text	000000000000008c              _ZNK2v85Value8IsBigIntEv
+0000000002e10520 g     F .text	000000000000008c              _ZNK2v85Value12IsUint8ArrayEv
+0000000002e105b0 g     F .text	0000000000000236              _ZNK2v85Value8ToStringENS_5LocalINS_7ContextEEE
+0000000002e107f0 g     F .text	0000000000000301              _ZNK2v85Value9ToIntegerENS_5LocalINS_7ContextEEE
+0000000002e10b00 g     F .text	00000000000000c0              _ZNK2v85Value11Uint32ValueENS_5LocalINS_7ContextEEE
+0000000002e10bc0 g     F .text	0000000000000389              _ZNK2v85Value12StrictEqualsENS_5LocalIS0_EE
+0000000002e10f50 g     F .text	0000000000000006              _ZN4node25AddEnvironmentCleanupHookEPN2v87IsolateEPFvPvES3_
+0000000002e10f60 g     F .text	0000000000000006              _ZN4node28RemoveEnvironmentCleanupHookEPN2v87IsolateEPFvPvES3_
+0000000002e10f70 g     F .text	0000000000000008              _ZN4node19GetCurrentEventLoopEPN2v87IsolateE
+0000000002e10f80 g     F .text	0000000000000009              _ZN4node29AsyncHooksGetExecutionAsyncIdEN2v85LocalINS0_7ContextEEE
+0000000002e10f90 g     F .text	000000000000000c              _ZN4node13EmitAsyncInitEPN2v87IsolateENS0_5LocalINS0_6ObjectEEENS3_INS0_6StringEEEd
+0000000002e10fa0 g     F .text	0000000000000006              _ZN4node16EmitAsyncDestroyEPN2v87IsolateENS_13async_contextE
+0000000002e10fb0 g     F .text	000000000000070a              _ZN4node12MakeCallbackEPN2v87IsolateENS0_5LocalINS0_6ObjectEEENS3_INS0_8FunctionEEEiPNS3_INS0_5ValueEEENS_13async_contextE
+0000000002e116c0 g     F .text	0000000000000cd0              node_module_register
+0000000002e03060 g     F .text	0000000000000078              _ZN2v820EscapableHandleScopeC1EPNS_7IsolateE
+0000000002e03480 g     F .text	000000000000000a              _ZN2v820EscapableHandleScopeD1Ev
+0000000002e030e0 g     F .text	0000000000000078              _ZN2v824EscapableHandleScopeBaseC1EPNS_7IsolateE
+0000000002e060d0 g     F .text	00000000000000d4              _ZN2v811HandleScopeC1EPNS_7IsolateE
+0000000002e03160 g     F .text	0000000000000320              _ZN2v811HandleScopeD1Ev
+0000000002e06290 g     F .text	0000000000000010              _ZN2v820HeapObjectStatisticsC1Ev
+00000000030331a0 g     F .text	0000000000000013              _ZN2v812api_internal12ToLocalEmptyEv
+00000000030331c0 g     F .text	0000000000000013              _ZN2v812api_internal17FromJustIsNothingEv
+00000000030331e0 g     F .text	0000000000000071              _ZN2v812api_internal18GlobalizeReferenceEPNS_8internal7IsolateEm
+0000000003033260 g     F .text	000000000000014a              _ZN2v812api_internal13DisposeGlobalEPm
+00000000030333b0 g     F .text	00000000000001f9              _ZN2v812api_internal8MakeWeakEPmPvPFvRKNS_16WeakCallbackInfoIvEEENS_16WeakCallbackTypeE
+00000000030335b0 g     F .text	000000000000015a              _ZN2v812api_internal9ClearWeakEPm
+0000000003033710 g     F .text	0000000000000006              _ZN2v812api_internal19MoveGlobalReferenceEPPmS2_
+0000000003033720 g     F .text	000000000000008b              _ZN2v812api_internal23GetFunctionTemplateDataEPNS_7IsolateENS_5LocalINS_4DataEEE
+00000000030337b0 g     F .text	000000000000008c              _ZN2v88internal35IsolateFromNeverReadOnlySpaceObjectEm
+0000000003033840 g     F .text	00000000000000b2              _ZN2v88internal9Internals17GetCurrentIsolateEv
+0000000002786390 g     F .text	000000000000003f              napi_get_last_error_info
+00000000027874f0 g     F .text	0000000000000ca2              napi_set_property
+00000000027881a0 g     F .text	0000000000000252              napi_set_element
+0000000002788400 g     F .text	000000000000021b              napi_has_element
+0000000002788620 g     F .text	00000000000009ee              napi_has_property
+0000000002789010 g     F .text	000000000000010f              napi_get_date_value
+0000000002789120 g     F .text	000000000000160b              napi_get_property
+000000000278a730 g     F .text	00000000000009cb              napi_delete_property
+000000000278b100 g     F .text	0000000000000f61              napi_has_own_property
+000000000278c290 g     F .text	00000000000004f2              napi_set_named_property
+000000000278c790 g     F .text	000000000000021d              napi_create_arraybuffer
+000000000278ca70 g     F .text	00000000000000af              napi_is_buffer
+000000000278cb20 g     F .text	00000000000000af              napi_is_typedarray
+000000000278cbd0 g     F .text	000000000000122e              napi_has_named_property
+000000000278de00 g     F .text	0000000000000298              napi_get_named_property
+000000000278ee80 g     F .text	000000000000021c              napi_module_register
+000000000278f0a0 g     F .text	000000000000063e              napi_wrap
+000000000278f710 g     F .text	000000000000025b              napi_remove_wrap
+000000000278f970 g     F .text	000000000000019a              napi_unwrap
+000000000278fb10 g     F .text	00000000000002a5              napi_create_function
+000000000278fdc0 g     F .text	0000000000000230              napi_get_cb_info
+000000000278fff0 g     F .text	0000000000000224              napi_define_properties
+0000000002790220 g     F .text	0000000000000018              napi_throw_error
+0000000002790440 g     F .text	000000000000025f              napi_create_reference
+0000000002790850 g     F .text	000000000000036d              napi_add_finalizer
+0000000002790bc0 g     F .text	0000000000000029              node_api_post_finalizer
+0000000002790bf0 g     F .text	0000000000000129              napi_reference_unref
+0000000002790d20 g     F .text	000000000000014d              napi_get_reference_value
+0000000002790e70 g     F .text	00000000000000ed              napi_reference_ref
+0000000002790f60 g     F .text	000000000000004b              napi_delete_reference
+0000000002790fb0 g     F .text	0000000000000122              napi_is_detached_arraybuffer
+00000000027910e0 g     F .text	0000000000000128              napi_detach_arraybuffer
+0000000002791210 g     F .text	000000000000012e              napi_adjust_external_memory
+0000000002791340 g     F .text	0000000000000092              napi_is_exception_pending
+00000000027913e0 g     F .text	0000000000000113              napi_get_and_clear_last_exception
+0000000002791500 g     F .text	000000000000018b              napi_fatal_exception
+0000000002791690 g     F .text	000000000000015e              napi_throw
+00000000027918c0 g     F .text	00000000000001f6              node_api_symbol_for
+0000000002791ac0 g     F .text	0000000000000045              node_api_create_syntax_error
+0000000002791cf0 g     F .text	000000000000001b              node_api_throw_syntax_error
+0000000002791d10 g     F .text	000000000000001b              napi_throw_type_error
+0000000002791d30 g     F .text	0000000000000045              napi_create_type_error
+0000000002791d80 g     F .text	0000000000000412              node_api_create_external_string_latin1
+00000000027921a0 g     F .text	00000000000003fa              node_api_create_external_string_utf16
+00000000027925a0 g     F .text	000000000000000a              node_api_create_property_key_latin1
+00000000027925b0 g     F .text	000000000000000a              node_api_create_property_key_utf16
+00000000027925c0 g     F .text	000000000000000a              node_api_create_property_key_utf8
+00000000027925d0 g     F .text	000000000000039a              node_api_create_buffer_from_arraybuffer
+0000000002792b80 g     F .text	0000000000000095              node_api_get_module_file_name
+0000000002792c20 g     F .text	000000000000025e              node_api_set_prototype
+0000000002792e80 g     F .text	0000000000000c40              node_api_create_object_with_properties
+0000000002793ac0 g     F .text	000000000000006b              node_api_is_sharedarraybuffer
+0000000002793b30 g     F .text	000000000000022b              node_api_create_sharedarraybuffer
+0000000002793d60 g     F .text	00000000000002ed              node_api_create_external_sharedarraybuffer
+0000000002794050 g     F .text	0000000000000042              napi_create_error
+00000000027940a0 g     F .text	000000000000001b              napi_throw_range_error
+00000000027940c0 g     F .text	00000000000001b6              napi_object_freeze
+0000000002794280 g     F .text	00000000000001b6              napi_object_seal
+0000000002794440 g     F .text	000000000000010f              napi_get_global
+0000000002794550 g     F .text	0000000000000045              napi_create_range_error
+00000000027945a0 g     F .text	0000000000000138              napi_get_new_target
+00000000027946e0 g     F .text	000000000000022e              napi_create_dataview
+0000000002794910 g     F .text	000000000000099d              napi_create_typedarray
+00000000027952b0 g     F .text	000000000000136c              napi_get_all_property_names
+00000000027969d0 g     F .text	0000000000000314              napi_define_class
+0000000002796cf0 g     F .text	000000000000022b              napi_coerce_to_string
+0000000002796f20 g     F .text	0000000000000234              napi_coerce_to_bool
+0000000002797160 g     F .text	0000000000000254              napi_coerce_to_number
+00000000027973c0 g     F .text	00000000000001aa              napi_coerce_to_object
+0000000002797570 g     F .text	0000000000000258              napi_get_property_names
+00000000027977d0 g     F .text	00000000000002d9              napi_create_buffer
+0000000002797ab0 g     F .text	0000000000000302              napi_create_buffer_copy
+0000000002797dc0 g     F .text	00000000000007d1              napi_create_external_buffer
+00000000027985a0 g     F .text	000000000000037c              napi_create_external_arraybuffer
+0000000002798920 g     F .text	0000000000000188              napi_create_double
+0000000002798ab0 g     F .text	0000000000000124              napi_get_value_double
+0000000002798be0 g     F .text	0000000000000198              napi_get_value_int32
+0000000002798d80 g     F .text	00000000000001ad              napi_get_value_uint32
+0000000002798f30 g     F .text	000000000000016d              napi_get_value_int64
+00000000027990a0 g     F .text	00000000000004d1              napi_get_value_string_utf8
+0000000002799580 g     F .text	000000000000041f              napi_get_value_string_latin1
+00000000027999a0 g     F .text	0000000000000466              napi_get_value_string_utf16
+0000000002799e10 g     F .text	0000000000000100              napi_get_value_bool
+0000000002799f10 g     F .text	00000000000002cb              napi_get_element
+000000000279a1e0 g     F .text	0000000000000226              napi_delete_element
+000000000279a410 g     F .text	000000000000017a              napi_create_object
+000000000279a590 g     F .text	000000000000025c              napi_create_external
+000000000279a7f0 g     F .text	0000000000000229              napi_typeof
+000000000279aa20 g     F .text	0000000000000261              napi_get_value_bigint_int64
+000000000279ac90 g     F .text	0000000000000237              napi_get_value_bigint_uint64
+000000000279aed0 g     F .text	000000000000018d              napi_get_value_bigint_words
+000000000279b060 g     F .text	000000000000014e              napi_get_value_external
+000000000279b1b0 g     F .text	0000000000000088              napi_get_instance_data
+000000000279b240 g     F .text	0000000000000359              napi_run_script
+000000000279b5a0 g     F .text	0000000000000094              napi_set_instance_data
+000000000279b640 g     F .text	0000000000000170              napi_create_bigint_uint64
+000000000279b7b0 g     F .text	0000000000000181              napi_create_bigint_int64
+000000000279b940 g     F .text	000000000000020f              napi_create_bigint_words
+000000000279bb50 g     F .text	0000000000000241              napi_create_symbol
+000000000279bda0 g     F .text	0000000000000568              napi_new_instance
+000000000279c310 g     F .text	00000000000002ea              napi_instanceof
+000000000279c600 g     F .text	000000000000062a              napi_call_function
+000000000279cc30 g     F .text	0000000000000535              napi_type_tag_object
+000000000279d170 g     F .text	0000000000000293              napi_check_object_type_tag
+000000000279d410 g     F .text	0000000000000337              napi_add_env_cleanup_hook
+000000000279d750 g     F .text	00000000000003ba              napi_add_async_cleanup_hook
+000000000279db10 g     F .text	00000000000001d0              napi_remove_env_cleanup_hook
+000000000279dce0 g     F .text	00000000000000b0              napi_remove_async_cleanup_hook
+0000000002c49da0 g     F .text	000000000000000a              uv_os_getpid
+0000000002c49db0 g     F .text	000000000000000a              uv_os_getppid
+0000000002c49dc0 g     F .text	0000000000000014              uv_once
+0000000002c49de0 g     F .text	0000000000000030              uv_hrtime
+0000000002c49e10 g     F .text	0000000000000014              uv_mutex_destroy
+0000000002c49e30 g     F .text	000000000000005c              uv_mutex_init
+0000000002c49e90 g     F .text	000000000000005c              uv_mutex_init_recursive
+0000000002c49ef0 g     F .text	0000000000000014              uv_mutex_lock
+0000000002c49f10 g     F .text	0000000000000023              uv_mutex_trylock
+0000000002c49f40 g     F .text	0000000000000014              uv_mutex_unlock
+0000000003031e90 g     F .text	000000000000000e              uv_accept
+0000000003031ea0 g     F .text	000000000000000e              uv_async_init
+0000000003031eb0 g     F .text	000000000000000e              uv_async_send
+0000000003031ec0 g     F .text	000000000000000e              uv_available_parallelism
+0000000003031ed0 g     F .text	000000000000000e              uv_backend_fd
+0000000003031ee0 g     F .text	000000000000000e              uv_backend_timeout
+0000000003031ef0 g     F .text	000000000000000e              uv_barrier_destroy
+0000000003031f00 g     F .text	000000000000000e              uv_barrier_init
+0000000003031f10 g     F .text	000000000000000e              uv_barrier_wait
+0000000003031f20 g     F .text	000000000000000e              uv_buf_init
+0000000003031f30 g     F .text	000000000000000e              uv_cancel
+0000000003031f40 g     F .text	000000000000000e              uv_chdir
+0000000003031f50 g     F .text	000000000000000e              uv_check_init
+0000000003031f60 g     F .text	000000000000000e              uv_check_start
+0000000003031f70 g     F .text	000000000000000e              uv_check_stop
+0000000003031f80 g     F .text	000000000000000e              uv_clock_gettime
+0000000003031f90 g     F .text	000000000000000e              uv_close
+0000000003031fa0 g     F .text	000000000000000e              uv_cond_broadcast
+0000000003031fb0 g     F .text	000000000000000e              uv_cond_destroy
+0000000003031fc0 g     F .text	000000000000000e              uv_cond_init
+0000000003031fd0 g     F .text	000000000000000e              uv_cond_signal
+0000000003031fe0 g     F .text	000000000000000e              uv_cond_timedwait
+0000000003031ff0 g     F .text	000000000000000e              uv_cond_wait
+0000000003032000 g     F .text	000000000000000e              uv_cpu_info
+0000000003032010 g     F .text	000000000000000e              uv_cpumask_size
+0000000003032020 g     F .text	000000000000000e              uv_cwd
+0000000003032030 g     F .text	000000000000000e              uv_default_loop
+0000000003032040 g     F .text	000000000000000e              uv_disable_stdio_inheritance
+0000000003032050 g     F .text	000000000000000e              uv_dlclose
+0000000003032060 g     F .text	000000000000000e              uv_dlerror
+0000000003032070 g     F .text	000000000000000e              uv_dlopen
+0000000003032080 g     F .text	000000000000000e              uv_dlsym
+0000000003032090 g     F .text	000000000000000e              uv_err_name
+00000000030320a0 g     F .text	000000000000000e              uv_err_name_r
+00000000030320b0 g     F .text	000000000000000e              uv_exepath
+00000000030320c0 g     F .text	000000000000000e              uv_fileno
+00000000030320d0 g     F .text	000000000000000e              uv_free_cpu_info
+00000000030320e0 g     F .text	000000000000000e              uv_free_interface_addresses
+00000000030320f0 g     F .text	000000000000000e              uv_freeaddrinfo
+0000000003032100 g     F .text	000000000000000e              uv_fs_access
+0000000003032110 g     F .text	000000000000000e              uv_fs_chmod
+0000000003032120 g     F .text	000000000000000e              uv_fs_chown
+0000000003032130 g     F .text	000000000000000e              uv_fs_close
+0000000003032140 g     F .text	000000000000000e              uv_fs_closedir
+0000000003032150 g     F .text	000000000000000e              uv_fs_copyfile
+0000000003032160 g     F .text	000000000000000e              uv_fs_event_getpath
+0000000003032170 g     F .text	000000000000000e              uv_fs_event_init
+0000000003032180 g     F .text	000000000000000e              uv_fs_event_start
+0000000003032190 g     F .text	000000000000000e              uv_fs_event_stop
+00000000030321a0 g     F .text	000000000000000e              uv_fs_fchmod
+00000000030321b0 g     F .text	000000000000000e              uv_fs_fchown
+00000000030321c0 g     F .text	000000000000000e              uv_fs_fdatasync
+00000000030321d0 g     F .text	000000000000000e              uv_fs_fstat
+00000000030321e0 g     F .text	000000000000000e              uv_fs_fsync
+00000000030321f0 g     F .text	000000000000000e              uv_fs_ftruncate
+0000000003032200 g     F .text	000000000000000e              uv_fs_futime
+0000000003032210 g     F .text	000000000000000e              uv_fs_get_path
+0000000003032220 g     F .text	000000000000000e              uv_fs_get_ptr
+0000000003032230 g     F .text	000000000000000e              uv_fs_get_result
+0000000003032240 g     F .text	000000000000000e              uv_fs_get_statbuf
+0000000003032250 g     F .text	000000000000000e              uv_fs_get_system_error
+0000000003032260 g     F .text	000000000000000e              uv_fs_get_type
+0000000003032270 g     F .text	000000000000000e              uv_fs_lchown
+0000000003032280 g     F .text	000000000000000e              uv_fs_link
+0000000003032290 g     F .text	000000000000000e              uv_fs_lstat
+00000000030322a0 g     F .text	000000000000000e              uv_fs_lutime
+00000000030322b0 g     F .text	000000000000000e              uv_fs_mkdir
+00000000030322c0 g     F .text	000000000000000e              uv_fs_mkdtemp
+00000000030322d0 g     F .text	000000000000000e              uv_fs_mkstemp
+00000000030322e0 g     F .text	000000000000000e              uv_fs_open
+00000000030322f0 g     F .text	000000000000000e              uv_fs_opendir
+0000000003032300 g     F .text	000000000000000e              uv_fs_poll_getpath
+0000000003032310 g     F .text	000000000000000e              uv_fs_poll_init
+0000000003032320 g     F .text	000000000000000e              uv_fs_poll_start
+0000000003032330 g     F .text	000000000000000e              uv_fs_poll_stop
+0000000003032340 g     F .text	000000000000000e              uv_fs_read
+0000000003032350 g     F .text	000000000000000e              uv_fs_readdir
+0000000003032360 g     F .text	000000000000000e              uv_fs_readlink
+0000000003032370 g     F .text	000000000000000e              uv_fs_realpath
+0000000003032380 g     F .text	000000000000000e              uv_fs_rename
+0000000003032390 g     F .text	000000000000000e              uv_fs_req_cleanup
+00000000030323a0 g     F .text	000000000000000e              uv_fs_rmdir
+00000000030323b0 g     F .text	000000000000000e              uv_fs_scandir
+00000000030323c0 g     F .text	000000000000000e              uv_fs_scandir_next
+00000000030323d0 g     F .text	000000000000000e              uv_fs_sendfile
+00000000030323e0 g     F .text	000000000000000e              uv_fs_stat
+00000000030323f0 g     F .text	000000000000000e              uv_fs_statfs
+0000000003032400 g     F .text	000000000000000e              uv_fs_symlink
+0000000003032410 g     F .text	000000000000000e              uv_fs_unlink
+0000000003032420 g     F .text	000000000000000e              uv_fs_utime
+0000000003032430 g     F .text	000000000000000e              uv_fs_write
+0000000003032440 g     F .text	000000000000000e              uv_get_available_memory
+0000000003032450 g     F .text	000000000000000e              uv_get_constrained_memory
+0000000003032460 g     F .text	000000000000000e              uv_get_free_memory
+0000000003032470 g     F .text	000000000000000e              uv_get_osfhandle
+0000000003032480 g     F .text	000000000000000e              uv_get_process_title
+0000000003032490 g     F .text	000000000000000e              uv_get_total_memory
+00000000030324a0 g     F .text	000000000000000e              uv_getaddrinfo
+00000000030324b0 g     F .text	000000000000000e              uv_getnameinfo
+00000000030324c0 g     F .text	000000000000000e              uv_getrusage
+00000000030324d0 g     F .text	000000000000000e              uv_getrusage_thread
+00000000030324e0 g     F .text	000000000000000e              uv_gettimeofday
+00000000030324f0 g     F .text	000000000000000e              uv_guess_handle
+0000000003032500 g     F .text	000000000000000e              uv_handle_get_data
+0000000003032510 g     F .text	000000000000000e              uv_handle_get_loop
+0000000003032520 g     F .text	000000000000000e              uv_handle_get_type
+0000000003032530 g     F .text	000000000000000e              uv_handle_set_data
+0000000003032540 g     F .text	000000000000000e              uv_handle_size
+0000000003032550 g     F .text	000000000000000e              uv_handle_type_name
+0000000003032560 g     F .text	000000000000000e              uv_has_ref
+0000000003032570 g     F .text	000000000000000e              uv_idle_init
+0000000003032580 g     F .text	000000000000000e              uv_idle_start
+0000000003032590 g     F .text	000000000000000e              uv_idle_stop
+00000000030325a0 g     F .text	000000000000000e              uv_if_indextoiid
+00000000030325b0 g     F .text	000000000000000e              uv_if_indextoname
+00000000030325c0 g     F .text	000000000000000e              uv_inet_ntop
+00000000030325d0 g     F .text	000000000000000e              uv_inet_pton
+00000000030325e0 g     F .text	000000000000000e              uv_interface_addresses
+00000000030325f0 g     F .text	000000000000000e              uv_ip4_addr
+0000000003032600 g     F .text	000000000000000e              uv_ip4_name
+0000000003032610 g     F .text	000000000000000e              uv_ip6_addr
+0000000003032620 g     F .text	000000000000000e              uv_ip6_name
+0000000003032630 g     F .text	000000000000000e              uv_ip_name
+0000000003032640 g     F .text	000000000000000e              uv_is_active
+0000000003032650 g     F .text	000000000000000e              uv_is_closing
+0000000003032660 g     F .text	000000000000000e              uv_is_readable
+0000000003032670 g     F .text	000000000000000e              uv_is_writable
+0000000003032680 g     F .text	000000000000000e              uv_key_create
+0000000003032690 g     F .text	000000000000000e              uv_key_delete
+00000000030326a0 g     F .text	000000000000000e              uv_key_get
+00000000030326b0 g     F .text	000000000000000e              uv_key_set
+00000000030326c0 g     F .text	000000000000000e              uv_kill
+00000000030326d0 g     F .text	000000000000000e              uv_library_shutdown
+00000000030326e0 g     F .text	000000000000000e              uv_listen
+00000000030326f0 g     F .text	000000000000000e              uv_loadavg
+0000000003032700 g     F .text	000000000000000e              uv_loop_alive
+0000000003032710 g     F .text	000000000000000e              uv_loop_close
+0000000003032720 g     F .text	000000000000000e              uv_loop_configure
+0000000003032730 g     F .text	000000000000000e              uv_loop_delete
+0000000003032740 g     F .text	000000000000000e              uv_loop_fork
+0000000003032750 g     F .text	000000000000000e              uv_loop_get_data
+0000000003032760 g     F .text	000000000000000e              uv_loop_init
+0000000003032770 g     F .text	000000000000000e              uv_loop_new
+0000000003032780 g     F .text	000000000000000e              uv_loop_set_data
+0000000003032790 g     F .text	000000000000000e              uv_loop_size
+00000000030327a0 g     F .text	000000000000000e              uv_metrics_idle_time
+00000000030327b0 g     F .text	000000000000000e              uv_metrics_info
+00000000030327c0 g     F .text	000000000000000e              uv_now
+00000000030327d0 g     F .text	000000000000000e              uv_open_osfhandle
+00000000030327e0 g     F .text	000000000000000e              uv_os_environ
+00000000030327f0 g     F .text	000000000000000e              uv_os_free_environ
+0000000003032800 g     F .text	000000000000000e              uv_os_free_group
+0000000003032810 g     F .text	000000000000000e              uv_os_free_passwd
+0000000003032820 g     F .text	000000000000000e              uv_os_get_group
+0000000003032830 g     F .text	000000000000000e              uv_os_get_passwd
+0000000003032840 g     F .text	000000000000000e              uv_os_get_passwd2
+0000000003032850 g     F .text	000000000000000e              uv_os_getenv
+0000000003032860 g     F .text	000000000000000e              uv_os_gethostname
+0000000003032870 g     F .text	000000000000000e              uv_os_getpriority
+0000000003032880 g     F .text	000000000000000e              uv_os_homedir
+0000000003032890 g     F .text	000000000000000e              uv_os_setenv
+00000000030328a0 g     F .text	000000000000000e              uv_os_setpriority
+00000000030328b0 g     F .text	000000000000000e              uv_os_tmpdir
+00000000030328c0 g     F .text	000000000000000e              uv_os_uname
+00000000030328d0 g     F .text	000000000000000e              uv_os_unsetenv
+00000000030328e0 g     F .text	000000000000000e              uv_pipe
+00000000030328f0 g     F .text	000000000000000e              uv_pipe_bind
+0000000003032900 g     F .text	000000000000000e              uv_pipe_bind2
+0000000003032910 g     F .text	000000000000000e              uv_pipe_chmod
+0000000003032920 g     F .text	000000000000000e              uv_pipe_connect
+0000000003032930 g     F .text	000000000000000e              uv_pipe_connect2
+0000000003032940 g     F .text	000000000000000e              uv_pipe_getpeername
+0000000003032950 g     F .text	000000000000000e              uv_pipe_getsockname
+0000000003032960 g     F .text	000000000000000e              uv_pipe_init
+0000000003032970 g     F .text	000000000000000e              uv_pipe_open
+0000000003032980 g     F .text	000000000000000e              uv_pipe_pending_count
+0000000003032990 g     F .text	000000000000000e              uv_pipe_pending_instances
+00000000030329a0 g     F .text	000000000000000e              uv_pipe_pending_type
+00000000030329b0 g     F .text	000000000000000e              uv_poll_init
+00000000030329c0 g     F .text	000000000000000e              uv_poll_init_socket
+00000000030329d0 g     F .text	000000000000000e              uv_poll_start
+00000000030329e0 g     F .text	000000000000000e              uv_poll_stop
+00000000030329f0 g     F .text	000000000000000e              uv_prepare_init
+0000000003032a00 g     F .text	000000000000000e              uv_prepare_start
+0000000003032a10 g     F .text	000000000000000e              uv_prepare_stop
+0000000003032a20 g     F .text	000000000000000e              uv_print_active_handles
+0000000003032a30 g     F .text	000000000000000e              uv_print_all_handles
+0000000003032a40 g     F .text	000000000000000e              uv_process_get_pid
+0000000003032a50 g     F .text	000000000000000e              uv_process_kill
+0000000003032a60 g     F .text	000000000000000e              uv_queue_work
+0000000003032a70 g     F .text	000000000000000e              uv_random
+0000000003032a80 g     F .text	000000000000000e              uv_read_start
+0000000003032a90 g     F .text	000000000000000e              uv_read_stop
+0000000003032aa0 g     F .text	000000000000000e              uv_recv_buffer_size
+0000000003032ab0 g     F .text	000000000000000e              uv_ref
+0000000003032ac0 g     F .text	000000000000000e              uv_replace_allocator
+0000000003032ad0 g     F .text	000000000000000e              uv_req_get_data
+0000000003032ae0 g     F .text	000000000000000e              uv_req_get_type
+0000000003032af0 g     F .text	000000000000000e              uv_req_set_data
+0000000003032b00 g     F .text	000000000000000e              uv_req_size
+0000000003032b10 g     F .text	000000000000000e              uv_req_type_name
+0000000003032b20 g     F .text	000000000000000e              uv_resident_set_memory
+0000000003032b30 g     F .text	000000000000000e              uv_run
+0000000003032b40 g     F .text	000000000000000e              uv_rwlock_destroy
+0000000003032b50 g     F .text	000000000000000e              uv_rwlock_init
+0000000003032b60 g     F .text	000000000000000e              uv_rwlock_rdlock
+0000000003032b70 g     F .text	000000000000000e              uv_rwlock_rdunlock
+0000000003032b80 g     F .text	000000000000000e              uv_rwlock_tryrdlock
+0000000003032b90 g     F .text	000000000000000e              uv_rwlock_trywrlock
+0000000003032ba0 g     F .text	000000000000000e              uv_rwlock_wrlock
+0000000003032bb0 g     F .text	000000000000000e              uv_rwlock_wrunlock
+0000000003032bc0 g     F .text	000000000000000e              uv_sem_destroy
+0000000003032bd0 g     F .text	000000000000000e              uv_sem_init
+0000000003032be0 g     F .text	000000000000000e              uv_sem_post
+0000000003032bf0 g     F .text	000000000000000e              uv_sem_trywait
+0000000003032c00 g     F .text	000000000000000e              uv_sem_wait
+0000000003032c10 g     F .text	000000000000000e              uv_send_buffer_size
+0000000003032c20 g     F .text	000000000000000e              uv_set_process_title
+0000000003032c30 g     F .text	000000000000000e              uv_setup_args
+0000000003032c40 g     F .text	000000000000000e              uv_shutdown
+0000000003032c50 g     F .text	000000000000000e              uv_signal_init
+0000000003032c60 g     F .text	000000000000000e              uv_signal_start
+0000000003032c70 g     F .text	000000000000000e              uv_signal_start_oneshot
+0000000003032c80 g     F .text	000000000000000e              uv_signal_stop
+0000000003032c90 g     F .text	000000000000000e              uv_sleep
+0000000003032ca0 g     F .text	000000000000000e              uv_socketpair
+0000000003032cb0 g     F .text	000000000000000e              uv_spawn
+0000000003032cc0 g     F .text	000000000000000e              uv_stop
+0000000003032cd0 g     F .text	000000000000000e              uv_stream_get_write_queue_size
+0000000003032ce0 g     F .text	000000000000000e              uv_stream_set_blocking
+0000000003032cf0 g     F .text	000000000000000e              uv_strerror
+0000000003032d00 g     F .text	000000000000000e              uv_strerror_r
+0000000003032d10 g     F .text	000000000000000e              uv_tcp_bind
+0000000003032d20 g     F .text	000000000000000e              uv_tcp_close_reset
+0000000003032d30 g     F .text	000000000000000e              uv_tcp_connect
+0000000003032d40 g     F .text	000000000000000e              uv_tcp_getpeername
+0000000003032d50 g     F .text	000000000000000e              uv_tcp_getsockname
+0000000003032d60 g     F .text	000000000000000e              uv_tcp_init
+0000000003032d70 g     F .text	000000000000000e              uv_tcp_init_ex
+0000000003032d80 g     F .text	000000000000000e              uv_tcp_keepalive
+0000000003032d90 g     F .text	000000000000000e              uv_tcp_nodelay
+0000000003032da0 g     F .text	000000000000000e              uv_tcp_open
+0000000003032db0 g     F .text	000000000000000e              uv_tcp_simultaneous_accepts
+0000000003032dc0 g     F .text	000000000000000e              uv_thread_create
+0000000003032dd0 g     F .text	000000000000000e              uv_thread_create_ex
+0000000003032de0 g     F .text	000000000000000e              uv_thread_detach
+0000000003032df0 g     F .text	000000000000000e              uv_thread_equal
+0000000003032e00 g     F .text	000000000000000e              uv_thread_getaffinity
+0000000003032e10 g     F .text	000000000000000e              uv_thread_getcpu
+0000000003032e20 g     F .text	000000000000000e              uv_thread_getname
+0000000003032e30 g     F .text	000000000000000e              uv_thread_getpriority
+0000000003032e40 g     F .text	000000000000000e              uv_thread_join
+0000000003032e50 g     F .text	000000000000000e              uv_thread_self
+0000000003032e60 g     F .text	000000000000000e              uv_thread_setaffinity
+0000000003032e70 g     F .text	000000000000000e              uv_thread_setname
+0000000003032e80 g     F .text	000000000000000e              uv_thread_setpriority
+0000000003032e90 g     F .text	000000000000000e              uv_timer_again
+0000000003032ea0 g     F .text	000000000000000e              uv_timer_get_due_in
+0000000003032eb0 g     F .text	000000000000000e              uv_timer_get_repeat
+0000000003032ec0 g     F .text	000000000000000e              uv_timer_init
+0000000003032ed0 g     F .text	000000000000000e              uv_timer_set_repeat
+0000000003032ee0 g     F .text	000000000000000e              uv_timer_start
+0000000003032ef0 g     F .text	000000000000000e              uv_timer_stop
+0000000003032f00 g     F .text	000000000000000e              uv_translate_sys_error
+0000000003032f10 g     F .text	000000000000000e              uv_try_write
+0000000003032f20 g     F .text	000000000000000e              uv_try_write2
+0000000003032f30 g     F .text	000000000000000e              uv_tty_get_vterm_state
+0000000003032f40 g     F .text	000000000000000e              uv_tty_get_winsize
+0000000003032f50 g     F .text	000000000000000e              uv_tty_init
+0000000003032f60 g     F .text	000000000000000e              uv_tty_set_mode
+0000000003032f70 g     F .text	000000000000000e              uv_tty_set_vterm_state
+0000000003032f80 g     F .text	000000000000000e              uv_udp_bind
+0000000003032f90 g     F .text	000000000000000e              uv_udp_connect
+0000000003032fa0 g     F .text	000000000000000e              uv_udp_get_send_queue_count
+0000000003032fb0 g     F .text	000000000000000e              uv_udp_get_send_queue_size
+0000000003032fc0 g     F .text	000000000000000e              uv_udp_getpeername
+0000000003032fd0 g     F .text	000000000000000e              uv_udp_getsockname
+0000000003032fe0 g     F .text	000000000000000e              uv_udp_init
+0000000003032ff0 g     F .text	000000000000000e              uv_udp_init_ex
+0000000003033000 g     F .text	000000000000000e              uv_udp_open
+0000000003033010 g     F .text	000000000000000e              uv_udp_recv_start
+0000000003033020 g     F .text	000000000000000e              uv_udp_recv_stop
+0000000003033030 g     F .text	000000000000000e              uv_udp_send
+0000000003033040 g     F .text	000000000000000e              uv_udp_set_broadcast
+0000000003033050 g     F .text	000000000000000e              uv_udp_set_membership
+0000000003033060 g     F .text	000000000000000e              uv_udp_set_multicast_interface
+0000000003033070 g     F .text	000000000000000e              uv_udp_set_multicast_loop
+0000000003033080 g     F .text	000000000000000e              uv_udp_set_multicast_ttl
+0000000003033090 g     F .text	000000000000000e              uv_udp_set_source_membership
+00000000030330a0 g     F .text	000000000000000e              uv_udp_set_ttl
+00000000030330b0 g     F .text	000000000000000e              uv_udp_try_send
+00000000030330c0 g     F .text	000000000000000e              uv_udp_try_send2
+00000000030330d0 g     F .text	000000000000000e              uv_udp_using_recvmmsg
+00000000030330e0 g     F .text	000000000000000e              uv_unref
+00000000030330f0 g     F .text	000000000000000e              uv_update_time
+0000000003033100 g     F .text	000000000000000e              uv_uptime
+0000000003033110 g     F .text	000000000000000e              uv_utf16_length_as_wtf8
+0000000003033120 g     F .text	000000000000000e              uv_utf16_to_wtf8
+0000000003033130 g     F .text	000000000000000e              uv_version
+0000000003033140 g     F .text	000000000000000e              uv_version_string
+0000000003033150 g     F .text	000000000000000e              uv_walk
+0000000003033160 g     F .text	000000000000000e              uv_write
+0000000003033170 g     F .text	000000000000000e              uv_write2
+0000000003033180 g     F .text	000000000000000e              uv_wtf8_length_as_utf16
+0000000003033190 g     F .text	000000000000000e              uv_wtf8_to_utf16
+000000000254abc0 g     F .text	0000000000000061              napi_acquire_threadsafe_function
+000000000254ac30 g     F .text	000000000000001b              napi_async_destroy
+000000000254ac50 g     F .text	0000000000000026              napi_async_init
+000000000254ac80 g     F .text	00000000000005a3              napi_call_threadsafe_function
+000000000254b230 g     F .text	0000000000000035              napi_cancel_async_work
+000000000254b270 g     F .text	0000000000000008              napi_close_callback_scope
+000000000254b280 g     F .text	0000000000000143              napi_close_escapable_handle_scope
+000000000254b3d0 g     F .text	0000000000000143              napi_close_handle_scope
+000000000254b520 g     F .text	000000000000013a              napi_create_array
+000000000254b660 g     F .text	0000000000000149              napi_create_array_with_length
+000000000254b7b0 g     F .text	00000000000000c6              napi_create_async_work
+000000000254b880 g     F .text	00000000000000d2              napi_create_date
+000000000254b960 g     F .text	0000000000000147              napi_create_int32
+000000000254bab0 g     F .text	0000000000000147              napi_create_int64
+000000000254bc00 g     F .text	000000000000010a              napi_create_promise
+000000000254bd10 g     F .text	00000000000002cd              napi_create_string_latin1
+000000000254bfe0 g     F .text	00000000000002dc              napi_create_string_utf16
+000000000254c2c0 g     F .text	0000000000000160              napi_create_string_utf8
+000000000254c420 g     F .text	000000000000066b              napi_create_threadsafe_function
+000000000254ca90 g     F .text	0000000000000117              napi_create_uint32
+000000000254cbb0 g     F .text	0000000000000136              napi_delete_async_work
+000000000254ccf0 g     F .text	0000000000000190              napi_escape_handle
+000000000254ce80 g     F .text	000000000000011a              napi_fatal_error
+000000000254cfa0 g     F .text	000000000000016a              napi_get_array_length
+000000000254d110 g     F .text	0000000000000127              napi_get_arraybuffer_info
+000000000254d240 g     F .text	00000000000000e0              napi_get_boolean
+000000000254d320 g     F .text	0000000000000139              napi_get_buffer_info
+000000000254d460 g     F .text	0000000000000203              napi_get_dataview_info
+000000000254d670 g     F .text	000000000000002a              napi_get_node_version
+000000000254d6a0 g     F .text	00000000000000c7              napi_get_null
+000000000254d770 g     F .text	00000000000001bf              napi_get_prototype
+000000000254d930 g     F .text	000000000000000f              napi_get_threadsafe_function_context
+000000000254d940 g     F .text	00000000000002a5              napi_get_typedarray_info
+000000000254dbf0 g     F .text	00000000000000c7              napi_get_undefined
+000000000254dcc0 g     F .text	0000000000000035              napi_get_uv_event_loop
+000000000254dd00 g     F .text	0000000000000029              napi_get_version
+000000000254dd30 g     F .text	000000000000030d              napi_internal_enqueue_finalizer
+000000000254e040 g     F .text	00000000000001b2              napi_internal_register_cleanup_zig
+000000000254e200 g     F .text	0000000000000054              napi_internal_suppress_crash_on_abort_if_desired
+000000000254e260 g     F .text	0000000000000604              napi_internal_threadsafe_function_env_teardown
+000000000254e870 g     F .text	000000000000010b              napi_is_array
+000000000254e980 g     F .text	0000000000000126              napi_is_arraybuffer
+000000000254eab0 g     F .text	00000000000000a4              napi_is_dataview
+000000000254eb60 g     F .text	0000000000000105              napi_is_date
+000000000254ec70 g     F .text	0000000000000124              napi_is_error
+000000000254eda0 g     F .text	0000000000000105              napi_is_promise
+000000000254eeb0 g     F .text	00000000000001ac              napi_make_callback
+000000000254f060 g     F .text	0000000000000008              napi_open_callback_scope
+000000000254f070 g     F .text	00000000000000d1              napi_open_escapable_handle_scope
+000000000254f150 g     F .text	00000000000000e8              napi_open_handle_scope
+000000000254f240 g     F .text	0000000000000258              napi_queue_async_work
+000000000254f4a0 g     F .text	000000000000003f              napi_ref_threadsafe_function
+000000000254f4e0 g     F .text	000000000000027f              napi_reject_deferred
+000000000254f760 g     F .text	00000000000002cb              napi_release_threadsafe_function
+000000000254fa30 g     F .text	0000000000000270              napi_resolve_deferred
+000000000254fca0 g     F .text	00000000000000df              napi_strict_equals
+000000000254fd80 g     F .text	000000000000004c              napi_unref_threadsafe_function
+0000000000000000       F *UND*	0000000000000000              strlen
+0000000000000000       F *UND*	0000000000000000              __errno_location
+0000000000000000       F *UND*	0000000000000000              snprintf
+0000000000000000       F *UND*	0000000000000000              strchr
+0000000000000000       F *UND*	0000000000000000              vsnprintf
+0000000000000000       F *UND*	0000000000000000              abort
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_lock
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_unlock
+0000000000000000       F *UND*	0000000000000000              strerror
+0000000000000000       F *UND*	0000000000000000              fputs
+0000000004dafd20       F *UND*	0000000000000000              dlopen
+0000000000000000       F *UND*	0000000000000000              realpath
+0000000000000000       F *UND*	0000000000000000              getenv
+0000000000000000       F *UND*	0000000000000000              open
+0000000000000000       F *UND*	0000000000000000              close
+0000000000000000       F *UND*	0000000000000000              getpid
+0000000000000000       F *UND*	0000000000000000              sigfillset
+0000000000000000       F *UND*	0000000000000000              sigdelset
+0000000000000000       F *UND*	0000000000000000              pthread_sigmask
+0000000000000000       F *UND*	0000000000000000              pthread_create
+0000000000000000       F *UND*	0000000000000000              pthread_join
+0000000000000000       F *UND*	0000000000000000              sysconf
+0000000000000000       F *UND*	0000000000000000              munmap
+0000000000000000       F *UND*	0000000000000000              mprotect
+0000000000000000       F *UND*	0000000000000000              syscall
+0000000000000000       F *UND*	0000000000000000              clock_gettime
+0000000000000000       F *UND*	0000000000000000              getrusage
+0000000000000000       F *UND*	0000000000000000              sched_yield
+0000000000000000       F *UND*	0000000000000000              write
+0000000000000000       F *UND*	0000000000000000              backtrace
+0000000000000000       F *UND*	0000000000000000              dl_iterate_phdr
+0000000000000000       F *UND*	0000000000000000              readlink
+0000000000000000       F *UND*	0000000000000000              strtol
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_destroy
+0000000000000000       F *UND*	0000000000000000              prctl
+0000000000000000       F *UND*	0000000000000000              sysinfo
+0000000000000000       F *UND*	0000000000000000              mmap
+0000000000000000       F *UND*	0000000000000000              madvise
+0000000000000000       F *UND*	0000000000000000              clock
+0000000004f870f0 g     O .bss	0000000000000008              stdout
+0000000004f87100 g     O .bss	0000000000000008              stderr
+0000000004f87120 g     O .bss	0000000000000008              environ
+0000000000000000       F *UND*	0000000000000000              memchr
+0000000000000000       F *UND*	0000000000000000              memcmp
+0000000000000000       F *UND*	0000000000000000              strcmp
+0000000000000000       F *UND*	0000000000000000              bcmp
+0000000000000000       F *UND*	0000000000000000              fopen64
+0000000000000000       F *UND*	0000000000000000              fclose
+0000000004daff50       F *UND*	0000000000000000              fwrite
+0000000004daff60       F *UND*	0000000000000000              fread
+0000000000000000       F *UND*	0000000000000000              ferror
+0000000000000000       F *UND*	0000000000000000              fgets
+0000000000000000       F *UND*	0000000000000000              fseek
+0000000000000000       F *UND*	0000000000000000              feof
+0000000000000000       F *UND*	0000000000000000              ftell
+0000000000000000       F *UND*	0000000000000000              fflush
+0000000000000000       F *UND*	0000000000000000              read
+0000000004daffe0       F *UND*	0000000000000000              perror
+0000000000000000       F *UND*	0000000000000000              strtoull
+0000000000000000       F *UND*	0000000000000000              fprintf
+0000000000000000       F *UND*	0000000000000000              fputc
+0000000000000000       F *UND*	0000000000000000              time
+0000000000000000       F *UND*	0000000000000000              strncmp
+0000000000000000       F *UND*	0000000000000000              sigemptyset
+0000000000000000       F *UND*	0000000000000000              tcsetattr
+0000000000000000       F *UND*	0000000000000000              tcgetattr
+0000000000000000       F *UND*	0000000000000000              cfmakeraw
+0000000000000000       F *UND*	0000000000000000              sendmmsg
+0000000000000000       F *UND*	0000000000000000              recvmmsg
+0000000000000000       F *UND*	0000000000000000              fcntl
+0000000000000000       F *UND*	0000000000000000              setsockopt
+0000000000000000       F *UND*	0000000000000000              getsockopt
+0000000000000000       F *UND*	0000000000000000              socket
+0000000000000000       F *UND*	0000000000000000              shutdown
+0000000000000000       F *UND*	0000000000000000              getsockname
+0000000000000000       F *UND*	0000000000000000              getpeername
+0000000000000000       F *UND*	0000000000000000              accept4
+0000000000000000       F *UND*	0000000000000000              recv
+0000000000000000       F *UND*	0000000000000000              recvmsg
+0000000000000000       F *UND*	0000000000000000              writev
+0000000000000000       F *UND*	0000000000000000              send
+0000000000000000       F *UND*	0000000000000000              sendmsg
+0000000000000000       F *UND*	0000000000000000              getaddrinfo
+0000000000000000       F *UND*	0000000000000000              bind
+0000000000000000       F *UND*	0000000000000000              freeaddrinfo
+0000000000000000       F *UND*	0000000000000000              connect
+0000000000000000       F *UND*	0000000000000000              listen
+0000000000000000       F *UND*	0000000000000000              gettimeofday
+0000000000000000       F *UND*	0000000000000000              lseek
+0000000000000000       F *UND*	0000000000000000              poll
+0000000000000000       F *UND*	0000000000000000              fopen
+0000000000000000       F *UND*	0000000000000000              strstr
+0000000000000000       F *UND*	0000000000000000              strcasecmp
+0000000000000000       F *UND*	0000000000000000              localtime_r
+0000000000000000       F *UND*	0000000000000000              strncasecmp
+0000000000000000       F *UND*	0000000000000000              sprintf
+0000000000000000       F *UND*	0000000000000000              __ctype_b_loc
+0000000000000000       F *UND*	0000000000000000              inet_ntop
+0000000000000000       F *UND*	0000000000000000              getc
+0000000000000000       F *UND*	0000000000000000              clearerr
+0000000000000000       F *UND*	0000000000000000              exit
+0000000000000000       O *UND*	0000000000000000              stdin
+0000000000000000       F *UND*	0000000000000000              rand
+0000000000000000       F *UND*	0000000000000000              strncpy
+0000000000000000       F *UND*	0000000000000000              strftime
+0000000000000000       F *UND*	0000000000000000              srand
+0000000000000000       F *UND*	0000000000000000              inet_pton
+0000000000000000       F *UND*	0000000000000000              epoll_create1
+0000000000000000       F *UND*	0000000000000000              epoll_ctl
+0000000000000000       F *UND*	0000000000000000              eventfd
+0000000000000000       F *UND*	0000000000000000              epoll_pwait
+0000000000000000       F *UND*	0000000000000000              socketpair
+0000000000000000       F *UND*	0000000000000000              lrint
+0000000000000000       F *UND*	0000000000000000              sem_init
+0000000000000000       F *UND*	0000000000000000              sem_post
+0000000000000000       F *UND*	0000000000000000              sem_wait
+0000000000000000       F *UND*	0000000000000000              sigaddset
+0000000000000000       F *UND*	0000000000000000              sigaction
+0000000000000000       F *UND*	0000000000000000              isatty
+0000000000000000       F *UND*	0000000000000000              __isoc99_sscanf
+0000000000000000       F *UND*	0000000000000000              ioctl
+0000000000000000       F *UND*	0000000000000000              strnlen
+0000000000000000       F *UND*	0000000000000000              strtoul
+0000000000000000       F *UND*	0000000000000000              gmtime_r
+0000000000000000       F *UND*	0000000000000000              memmove
+0000000000000000       F *UND*	0000000000000000              memset
+0000000000000000       F *UND*	0000000000000000              memcpy
+0000000000000000       F *UND*	0000000000000000              isalnum
+0000000000000000       F *UND*	0000000000000000              ftruncate
+0000000000000000       F *UND*	0000000000000000              strtof
+0000000000000000       F *UND*	0000000000000000              getppid
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_init
+0000000000000000       F *UND*	0000000000000000              access
+0000000000000000       F *UND*	0000000000000000              getcwd
+0000000000000000       F *UND*	0000000000000000              ftruncate64
+0000000000000000       F *UND*	0000000000000000              pread64
+0000000000000000       F *UND*	0000000000000000              pwrite64
+0000000000000000       F *UND*	0000000000000000              fchmod
+0000000000000000       F *UND*	0000000000000000              unlink
+0000000000000000       F *UND*	0000000000000000              mkdir
+0000000000000000       F *UND*	0000000000000000              rmdir
+0000000000000000       F *UND*	0000000000000000              fchown
+0000000000000000       F *UND*	0000000000000000              geteuid
+0000000000000000       F *UND*	0000000000000000              mmap64
+0000000000000000       F *UND*	0000000000000000              mremap
+0000000000000000       F *UND*	0000000000000000              open64
+0000000000000000       F *UND*	0000000000000000              __xstat64
+0000000000000000       F *UND*	0000000000000000              __lxstat64
+0000000000000000       F *UND*	0000000000000000              fsync
+0000000000000000       F *UND*	0000000000000000              utimes
+0000000004db0550       F *UND*	0000000000000000              dlclose
+0000000000000000       F *UND*	0000000000000000              nanosleep
+0000000000000000       F *UND*	0000000000000000              strspn
+0000000000000000       F *UND*	0000000000000000              strcspn
+0000000000000000       F *UND*	0000000000000000              strrchr
+0000000000000000       F *UND*	0000000000000000              acos
+0000000000000000       F *UND*	0000000000000000              asin
+0000000000000000       F *UND*	0000000000000000              atan
+0000000000000000       F *UND*	0000000000000000              atan2
+0000000000000000       F *UND*	0000000000000000              cos
+0000000000000000       F *UND*	0000000000000000              sin
+0000000000000000       F *UND*	0000000000000000              tan
+0000000000000000       F *UND*	0000000000000000              cosh
+0000000000000000       F *UND*	0000000000000000              sinh
+0000000000000000       F *UND*	0000000000000000              tanh
+0000000000000000       F *UND*	0000000000000000              acosh
+0000000000000000       F *UND*	0000000000000000              asinh
+0000000000000000       F *UND*	0000000000000000              atanh
+0000000000000000       F *UND*	0000000000000000              localtime
+0000000000000000       F *UND*	0000000000000000              qsort
+0000000000000000       F *UND*	0000000000000000              rename
+0000000000000000       F *UND*	0000000000000000              umask
+0000000000000000       F *UND*	0000000000000000              execve
+0000000000000000       F *UND*	0000000000000000              getuid
+0000000000000000       F *UND*	0000000000000000              getegid
+0000000000000000       F *UND*	0000000000000000              getgid
+0000000000000000       F *UND*	0000000000000000              getgroups
+0000000000000000       F *UND*	0000000000000000              getpwuid_r
+0000000000000000       F *UND*	0000000000000000              getpagesize
+0000000000000000       F *UND*	0000000000000000              kill
+0000000000000000       F *UND*	0000000000000000              uname
+0000000000000000       F *UND*	0000000000000000              gethostname
+0000000000000000       F *UND*	0000000000000000              gnu_get_libc_version
+0000000000000000       F *UND*	0000000000000000              getrlimit
+0000000000000000       F *UND*	0000000000000000              getpwnam_r
+0000000000000000       F *UND*	0000000000000000              getgrnam_r
+0000000000000000       F *UND*	0000000000000000              getpgrp
+0000000000000000       F *UND*	0000000000000000              signal
+0000000000000000       F *UND*	0000000000000000              setuid
+0000000000000000       F *UND*	0000000000000000              seteuid
+0000000000000000       F *UND*	0000000000000000              setegid
+0000000000000000       F *UND*	0000000000000000              setgid
+0000000000000000       F *UND*	0000000000000000              setgroups
+0000000000000000       F *UND*	0000000000000000              initgroups
+0000000000000000       F *UND*	0000000000000000              pthread_attr_init
+0000000000000000       F *UND*	0000000000000000              pthread_attr_setdetachstate
+0000000000000000       F *UND*	0000000000000000              pthread_attr_destroy
+0000000000000000       F *UND*	0000000000000000              ldexp
+0000000000000000       F *UND*	0000000000000000              sigprocmask
+0000000000000000       F *UND*	0000000000000000              pthread_setcancelstate
+0000000000000000       F *UND*	0000000000000000              vfork
+0000000000000000       F *UND*	0000000000000000              wait4
+0000000000000000       F *UND*	0000000000000000              getpriority
+0000000000000000       F *UND*	0000000000000000              setpriority
+0000000000000000       F *UND*	0000000000000000              __libc_current_sigrtmin
+0000000000000000       F *UND*	0000000000000000              usleep
+0000000000000000       F *UND*	0000000000000000              raise
+0000000000000000       F *UND*	0000000000000000              setvbuf
+0000000000000000       F *UND*	0000000000000000              ttyname_r
+0000000000000000       F *UND*	0000000000000000              vfprintf
+0000000000000000       F *UND*	0000000000000000              __isoc99_vscanf
+0000000000000000       F *UND*	0000000000000000              __isoc99_vfscanf
+0000000000000000       F *UND*	0000000000000000              __isoc99_vsscanf
+0000000000000000       F *UND*	0000000000000000              fgetc
+0000000000000000       F *UND*	0000000000000000              ungetc
+0000000000000000       F *UND*	0000000000000000              fileno
+0000000000000000       F *UND*	0000000000000000              memrchr
+0000000000000000       F *UND*	0000000000000000              openat
+0000000000000000       F *UND*	0000000000000000              setsid
+0000000000000000       F *UND*	0000000000000000              setpgid
+0000000000000000       F *UND*	0000000000000000              chdir
+0000000000000000       F *UND*	0000000000000000              dup2
+0000000000000000  w      *UND*	0000000000000000              ZSTD_trace_decompress_begin
+0000000000000000  w      *UND*	0000000000000000              ZSTD_trace_decompress_end
+0000000000000000       F *UND*	0000000000000000              __xstat
+0000000000000000       F *UND*	0000000000000000              pthread_cond_init
+0000000000000000       F *UND*	0000000000000000              pthread_cond_destroy
+0000000000000000       F *UND*	0000000000000000              pthread_cond_signal
+0000000000000000       F *UND*	0000000000000000              pthread_cond_broadcast
+0000000000000000       F *UND*	0000000000000000              pthread_cond_wait
+0000000000000000       F *UND*	0000000000000000              pthread_cond_timedwait
+0000000000000000       F *UND*	0000000000000000              getservbyname_r
+0000000000000000       F *UND*	0000000000000000              recvfrom
+0000000000000000       F *UND*	0000000000000000              sendto
+0000000000000000       F *UND*	0000000000000000              if_nametoindex
+0000000000000000       F *UND*	0000000000000000              if_indextoname
+0000000000000000       F *UND*	0000000000000000              getifaddrs
+0000000000000000       F *UND*	0000000000000000              freeifaddrs
+0000000000000000       F *UND*	0000000000000000              pipe2
+0000000000000000       F *UND*	0000000000000000              epoll_wait
+0000000000000000       F *UND*	0000000000000000              select
+0000000000000000       F *UND*	0000000000000000              inotify_init1
+0000000000000000       F *UND*	0000000000000000              inotify_add_watch
+0000000000000000       F *UND*	0000000000000000              getservbyport_r
+0000000000000000       F *UND*	0000000000000000              splice
+0000000000000000       F *UND*	0000000000000000              strcpy
+0000000000000000       F *UND*	0000000000000000              printf
+0000000000000000       F *UND*	0000000000000000              ldexpl
+0000000000000000       F *UND*	0000000000000000              strtold
+0000000000000000       F *UND*	0000000000000000              strtod
+0000000000000000       F *UND*	0000000000000000              _setjmp
+0000000000000000       F *UND*	0000000000000000              longjmp
+0000000000000000       F *UND*	0000000000000000              puts
+0000000000000000       F *UND*	0000000000000000              putchar
+0000000000000000       F *UND*	0000000000000000              mkdirat
+0000000000000000       F *UND*	0000000000000000              faccessat
+0000000000000000       F *UND*	0000000000000000              waitpid
+0000000000000000  w      *UND*	0000000000000000              ZSTD_trace_compress_end
+0000000000000000  w      *UND*	0000000000000000              ZSTD_trace_compress_begin
+0000000000000000       F *UND*	0000000000000000              setenv
+0000000000000000       F *UND*	0000000000000000              truncate
+0000000000000000       F *UND*	0000000000000000              posix_fadvise
+0000000000000000       F *UND*	0000000000000000              link
+0000000000000000       F *UND*	0000000000000000              mkdtemp
+0000000000000000       F *UND*	0000000000000000              fdatasync
+0000000000000000       F *UND*	0000000000000000              inotify_rm_watch
+0000000000000000       F *UND*	0000000000000000              cfsetispeed
+0000000000000000       F *UND*	0000000000000000              cfsetospeed
+0000000000000000       F *UND*	0000000000000000              log10
+0000000000000000       F *UND*	0000000000000000              ntohs
+0000000000000000       F *UND*	0000000000000000              mbrtowc
+0000000000000000       F *UND*	0000000000000000              __ctype_get_mb_cur_max
+0000000000000000       F *UND*	0000000000000000              wcrtomb
+0000000000000000       F *UND*	0000000000000000              wcslen
+0000000000000000       F *UND*	0000000000000000              wmemmove
+0000000000000000       F *UND*	0000000000000000              nl_langinfo
+0000000000000000       F *UND*	0000000000000000              _exit
+0000000000000000       F *UND*	0000000000000000              readlinkat
+0000000000000000       F *UND*	0000000000000000              linkat
+0000000000000000       F *UND*	0000000000000000              strcat
+0000000000000000       F *UND*	0000000000000000              pipe
+0000000000000000       F *UND*	0000000000000000              tcsetpgrp
+0000000000000000       F *UND*	0000000000000000              tcgetpgrp
+0000000000000000       F *UND*	0000000000000000              signalfd
+0000000000000000       F *UND*	0000000000000000              __fxstat
+0000000000000000       F *UND*	0000000000000000              mktime
+0000000000000000       F *UND*	0000000000000000              tzset
+0000000000000000       F *UND*	0000000000000000              atan2f
+0000000000000000       F *UND*	0000000000000000              tanf
+0000000000000000       F *UND*	0000000000000000              asinf
+0000000000000000       F *UND*	0000000000000000              acosf
+0000000000000000       F *UND*	0000000000000000              atanf
+0000000000000000       F *UND*	0000000000000000              hypotf
+0000000000000000       F *UND*	0000000000000000              ppoll
+0000000000000000       F *UND*	0000000000000000              sigaltstack
+0000000000000000       F *UND*	0000000000000000              setrlimit
+0000000000000000       F *UND*	0000000000000000              fork
+0000000000000000       F *UND*	0000000000000000              fchmodat
+0000000000000000       F *UND*	0000000000000000              renameat
+0000000000000000       F *UND*	0000000000000000              symlinkat
+0000000000000000       F *UND*	0000000000000000              unlinkat
+0000000000000000       F *UND*	0000000000000000              fallocate
+0000000000000000       F *UND*	0000000000000000              statfs
+0000000000000000       F *UND*	0000000000000000              chmod
+0000000000000000       F *UND*	0000000000000000              chown
+0000000000000000       F *UND*	0000000000000000              fchdir
+0000000000000000       F *UND*	0000000000000000              lchown
+0000000000000000       F *UND*	0000000000000000              symlink
+0000000000000000       F *UND*	0000000000000000              utimensat
+0000000000000000       F *UND*	0000000000000000              futimens
+0000000000000000       F *UND*	0000000000000000              sendfile
+0000000000000000       F *UND*	0000000000000000              process_vm_readv
+0000000000000000       F *UND*	0000000000000000              pread
+0000000000000000       F *UND*	0000000000000000              pthread_exit
+0000000000000000       F *UND*	0000000000000000              msync
+0000000000000000       F *UND*	0000000000000000              inet_aton
+0000000000000000       F *UND*	0000000000000000              opendir
+0000000000000000       F *UND*	0000000000000000              pause
+0000000000000000       F *UND*	0000000000000000              clock_nanosleep
+0000000000000000       F *UND*	0000000000000000              sched_getaffinity
+0000000000000000       F *UND*	0000000000000000              pthread_self
+0000000000000000       F *UND*	0000000000000000              pthread_setname_np
+0000000000000000       F *UND*	0000000000000000              __xpg_strerror_r
+0000000000000000       F *UND*	0000000000000000              pthread_attr_getstack
+0000000000000000       F *UND*	0000000000000000              pthread_detach
+0000000000000000       F *UND*	0000000000000000              closedir
+0000000000000000       F *UND*	0000000000000000              timegm
+0000000000000000       F *UND*	0000000000000000              __sched_cpucount
+0000000000000000       F *UND*	0000000000000000              backtrace_symbols
+0000000000000000       F *UND*	0000000000000000              __isoc99_fscanf
+0000000000000000       F *UND*	0000000000000000              sigsuspend
+0000000000000000       F *UND*	0000000000000000              setlocale
+0000000000000000       F *UND*	0000000000000000              mkostemp
+0000000000000000       F *UND*	0000000000000000              expm1
+0000000000000000       F *UND*	0000000000000000              log1p
+0000000000000000       F *UND*	0000000000000000              frexp
+0000000000000000       F *UND*	0000000000000000              mincore
+0000000000000000       F *UND*	0000000000000000              strerror_r
+0000000000000000       F *UND*	0000000000000000              accept
+0000000000000000       F *UND*	0000000000000000              strncat
+0000000000000000       F *UND*	0000000000000000              sinf
+0000000000000000       F *UND*	0000000000000000              cosf
+0000000000000000       F *UND*	0000000000000000              tanhf
+0000000000000000       F *UND*	0000000000000000              hypot
+0000000000000000       F *UND*	0000000000000000              nextafter
+0000000000000000       F *UND*	0000000000000000              div
+0000000000000000       F *UND*	0000000000000000              atoi
+0000000000000000       F *UND*	0000000000000000              readdir
+0000000000000000       F *UND*	0000000000000000              rewind
+0000000000000000       O *UND*	0000000000000000              __timezone
+0000000000000000       O *UND*	0000000000000000              tzname
+0000000000000000       F *UND*	0000000000000000              __cxa_at_quick_exit
+0000000000000000       F *UND*	0000000000000000              __register_atfork
+0000000004f87120  w    O .bss	0000000000000008              _environ
+0000000000000000       F *UND*	0000000000000000              gettext
+0000000000000000       F *UND*	0000000000000000              __stack_chk_fail
+0000000000000000       F *UND*	0000000000000000              __cxa_atexit
+0000000000000000       F *UND*	0000000000000000              __fxstat64
+0000000000000000       F *UND*	0000000000000000              __fprintf_chk
+0000000004f87120 g     O .bss	0000000000000008              __environ
+0000000000000000       F *UND*	0000000000000000              __fxstat
+0000000000000000       F *UND*	0000000000000000              secure_getenv
+0000000000000000       F *UND*	0000000000000000              __sprintf_chk
+0000000000000000       F *UND*	0000000000000000              __libc_start_main
+0000000000000000       F *UND*	0000000000000000              __tls_get_addr
+0000000000000000       F *UND*	0000000000000000              pthread_getattr_np
+0000000000000000       F *UND*	0000000000000000              pthread_rwlock_destroy
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_trylock
+0000000000000000       F *UND*	0000000000000000              pthread_rwlock_unlock
+0000000000000000       F *UND*	0000000000000000              pthread_kill
+0000000000000000       F *UND*	0000000000000000              pthread_getspecific
+0000000000000000       F *UND*	0000000000000000              pthread_mutexattr_destroy
+0000000000000000       F *UND*	0000000000000000              __pthread_key_create
+0000000000000000       F *UND*	0000000000000000              pthread_rwlock_wrlock
+0000000000000000       F *UND*	0000000000000000              pthread_attr_setstack
+0000000000000000       F *UND*	0000000000000000              pthread_rwlock_rdlock
+0000000000000000       F *UND*	0000000000000000              pthread_once
+0000000000000000       F *UND*	0000000000000000              pthread_key_delete
+0000000000000000       F *UND*	0000000000000000              pthread_attr_setstacksize
+0000000000000000       F *UND*	0000000000000000              pthread_mutexattr_init
+0000000000000000       F *UND*	0000000000000000              pthread_setspecific
+0000000000000000       F *UND*	0000000000000000              pthread_mutexattr_settype
+0000000000000000       F *UND*	0000000000000000              pthread_key_create
+0000000000000000       F *UND*	0000000000000000              dlsym
+0000000000000000       F *UND*	0000000000000000              dladdr
+0000000000000000       F *UND*	0000000000000000              dlerror
+0000000000000000       F *UND*	0000000000000000              exp
+0000000000000000       F *UND*	0000000000000000              sincosf
+0000000000000000       F *UND*	0000000000000000              log
+0000000000000000       F *UND*	0000000000000000              log2
+0000000000000000       F *UND*	0000000000000000              logf
+0000000000000000       F *UND*	0000000000000000              pow
+0000000000000000       F *UND*	0000000000000000              exp2
+0000000000000000       F *UND*	0000000000000000              expf
+0000000000000000       F *UND*	0000000000000000              powf
+
+
